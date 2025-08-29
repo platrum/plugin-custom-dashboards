@@ -1,0 +1,43 @@
+dashboard:
+  fields:
+    id:
+      type: int
+    name:
+      type: string
+    column_count:
+      type: int
+    owner_user_id:
+      type: string
+    refresh_interval:
+      type: int
+    is_public:
+      type: boolean
+    is_favourite:
+      type: boolean
+    widget_ids:
+      type: array
+
+widget:
+  fields:
+    id:
+      type: int
+    name:
+      type: string
+    type:
+      type: string
+    module:
+      type: string
+    group:
+      type: string
+    metric:
+      type: string
+    filter_preset_key:
+      type: string
+    order:
+      type: int
+    size_width:
+      type: int
+    size_height:
+      type: int
+    is_hide_left_bar:
+      type: boolean

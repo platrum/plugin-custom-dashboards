@@ -1,0 +1,12 @@
+module: plugin-custom-dashboard
+name: Настраиваемые дашборды
+description: Создание пользовательских дашбордов для отображения данных модулей
+dependencies:
+  - auth
+  - ui
+  - ui-collection
+  - ui-element
+  - orgschema
+  - tasks
+  - utils
+  - user

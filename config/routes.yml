@@ -1,0 +1,4 @@
+frontend:
+  customDashboard:
+    pattern: /custom-dashboard
+    title: Настраиваемые дашборды
